@@ -1,0 +1,124 @@
+/*
+Theme Name: RH Test
+Author: Jared Bruce
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+
+body{
+  margin: 8px 0 0 0;
+  background-color: darkblue;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.navbar ul:hover{
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
+
+.side-nav {
+  background-color: lightgrey;
+  height: 20rem;
+  width: 14rem;
+  float: left;
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 70px;
+  max-width: 100%;
+  background-color: red;
+  color: white;
+}
+
+.main-list li{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sub-list ul{
+  position: absolute;
+  display: inline-block;
+  top: 4.85rem;
+}
+
+.sub-list li{
+  display:none;
+}
+
+.main-list:hover .sub-list ul li{
+  display: block;
+  background-color: green;
+  font-size: 25px;
+  padding: 1rem 2rem 1rem 2rem;
+  color: white;
+}
+
+.main-list:hover .sub-list ul li:hover{
+  background-color: yellow;
+  color: black;
+}
+
+#test{
+  background-color: #BF0A30;
+  width: 100%;
+}
+
+#test:hover{
+  background-color: blue;
+}
+
+.sports-menu{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.side-nav ul{
+  display: inline-block;
+}
+
+.side-nav ul:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.side-nav ul li:hover
+{
+  background-color: red;
+  width: 14rem;
+}
+
+.main-body{
+  background-color: white;
+  height: 100rem;
+  width: 100%;
+}
+
+#scoring li{
+  padding: 0 10px 0 10px;
+  margin: auto;
+}
+
+#scoring li ul{
+  border: 3px solid lightgrey;
+  display: inline-block;
+}
+
+#iframe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
